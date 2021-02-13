@@ -13,7 +13,7 @@ def animate():
     for c in itertools.cycle(['\033[0;97m|', '\033[0;97m/', '\033[0;97m-', '\033[0;97m\\']):
         if done:
             break
-        sys.stdout.write('\r\033[0;93mLoading ' + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c )
+        sys.stdout.write('\r\033[0;97mLoading ' + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c + c )
         sys.stdout.flush()
         time.sleep(0.1)
  
